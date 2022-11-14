@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(9, 2, 64);
+    color: white;
+    letter-spacing: 2px;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+    
+}
+input:focus{
+    background: purple;
+    color: white;
+    
+}
+button{
+    height: 30px;
+    width: max-content;
+    padding-bottom: 0;
+    border-radius: 2px;
+    border: 1px solid rgb(254, 3, 145);
+}
+button:hover{
+    color: black;
+    background: yellow;
+    border: 1px solid white;
+}
+hr{
+    margin: 20px 0;
+    width: 70%;
+    
+}
+.item-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#list-items{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    border: 1px solid green;
+    border-radius: 3px;
+    min-width: 200px;
+    padding: auto;
+    overflow: hidden;
+    margin: 10px;
+    width: 25px;
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    font-size: 20px;
+}
